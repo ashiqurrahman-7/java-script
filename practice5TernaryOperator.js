@@ -8,5 +8,16 @@
 
 //oporer kaaj amra ternary operator use koreo korte pari 
 
-const age = 18;
-age>=18 ? console.log("you can vote") : console.log("you cannot vote");
+// const age = 18;
+// age>=18 ? console.log("you can vote") : console.log("you cannot vote");
+
+
+let price = 500;
+const isLeader = true ;
+if (isLeader === true){
+    price = 0;
+}
+else{
+    price = price +100;
+}
+console.log(price);
