@@ -10,7 +10,11 @@ const college = {
     }
 };
 
-console.log(college.name);
-console.log(college.unique);
-console.log(college.unique.color);
-console.log(college.unique.result.merit);
+// console.log(college.name);
+// console.log(college.unique);
+// console.log(college.unique.color);
+// console.log(college.unique.result.merit);
+
+console.log(college);
+delete college.class;
+console.log(college);
