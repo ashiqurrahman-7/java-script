@@ -10,7 +10,7 @@ for(let i = 0; i<= 30; i++){
  
 console.log('-------------------------------------------');
 
-//practicing continue
+//practicing continue  .It works when it match the condition then it stop for those condition and others are running well
 for(let m =0; m<=30; m++){
    
         if(m ===10){
