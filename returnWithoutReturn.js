@@ -1,12 +1,4 @@
 
-//without return
-function sumTwoNumberAndMultiplyByFive(num1 , num2){
-    let sum = num1 + num2;
-    let result = sum * 5;
-    console.log(result);
-
-}
-sumTwoNumberAndMultiplyByFive(2,2);
 
 
 
