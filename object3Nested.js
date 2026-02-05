@@ -11,14 +11,16 @@ const college ={
         }
 }
 
-// console.log(college);
-// console.log(college.name); //abc
+console.log(college);
+console.log(college.name); //abc
 
-// console.log(college.unique);
-// console.log(college.unique.color); //blue
-// console.log(college.unique.result.merit);  //top
+console.log(college.unique);
+console.log(college.unique.color); //blue
+console.log(college.unique.result.merit);  //top
 
 
-//deleting from object
+// deleting from object
 delete college.unique.result.merit;
 console.log(college);
+
+
